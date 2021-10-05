@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>if-else</title>
+</head>
+<body>
+<h3>월화수목금토일</h3>
+<hr>
+<script>
+    var 출퇴근유무;
+    var 요일 = prompt("월화수목금토일 중에서 입력하세요");
+    if(요일 == "월")
+        출퇴근유무 = "출근";
+    else if(요일 == "화")
+        출퇴근유무 = "출근";
+    else if(요일 == "수")
+        출퇴근유무 = "출근";
+    else if(요일 == "목")
+        출퇴근유무 = "출근";
+    else if(요일 == "금")
+        출퇴근유무 = "휴일";
+    else if(요일 == "토")
+        출퇴근유무 = "휴일";
+    else if(요일 == "일")
+        출퇴근유무 = "휴일";
+    else
+        document.write("요일을 다시 입력해주세요.")
+    document.write(요일 + "는 " + 출퇴근유무)
+</script>
+</body>
+</html>
